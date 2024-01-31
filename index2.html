@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        li {
+            width: 100%;
+            list-style: none;
+        }
+
+        li img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 1366px) {
+            li {
+                list-style-type: none;
+                max-width: 33%;
+                float: left;
+            }
+        }
+
+        @media screen and (orientation: portrait) and (max-width: 640px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media print {
+            h3 {
+                color: red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <img src="./img/um-par-de-treinadores.jpg" alt="">
+            <h3>Tênis 1</h3>
+        </li>
+        <li>
+            <img src="./img/um-par-de-treinadores.jpg" alt="">
+            <h3>Tênis 2</h3>
+        </li>
+        <li>
+            <img src="./img/um-par-de-treinadores.jpg" alt="">
+            <h3>Tênis 3</h3>
+        </li>
+    </ul>
+</body>
+</html>
